@@ -1,0 +1,133 @@
+# Site Settings
+name: Punto Gamer
+title: Punto Gamer Costa Rica
+description: Somos un nuevo proyecto, creado para informar a los costarricenses sobre la actualidad de los videojuegos y otros temas.
+tags:
+  - videojuegos
+  - noticias de videojuegos
+  - PC
+  - noticias de PC
+  - PS4
+  - noticias de PS4
+  - PS5
+  - noticias de PS5
+  - Xbox Series X
+  - noticias de Xbox Series X
+  - Xbox Series S
+  - noticias de Xbox Series S
+  - Nintendo Switch
+  - noticias de Nintendo Switch
+  - tecnología
+  - noticias de tecnología
+  - dispositivos móviles
+  - anime
+  - cine
+  - televisión
+  - streaming
+  - Netflix
+  - Crunchyroll
+  - Disney+
+  - Amazon Prime Video
+  - HBO GO
+  - FOX App
+  - Costa Rica
+  - Centroamérica
+email: puntogamercr@gmail.com
+disqus_username: puntogamercr
+show_hero: true
+menu:
+  - title: Inicio
+    url: /
+  - title: 3DS
+    url: /tags/#nintendo-3ds
+  - title: Android / iOS
+    url: /tags/#moviles
+  - title: Nintendo Switch
+    url: /tags/#nintendo-switch
+  - title: PC
+    url: /tags/#pc
+  - title: PS4
+    url: /tags/#ps4
+  - title: PS5
+    url: /tags/#ps5
+  - title: Xbox One
+    url: /tags/#xbox-one
+  - title: Xbox Series X/S
+    url: /tags/#xbox-series-x
+  - title: Otros
+    url: /tags/#otros
+
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: PuntoGamerCR
+facebook_username: PuntoGamerCR
+twitter_username: PuntoGamerCR
+instagram_username: puntogamercr
+
+
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://puntogamercr.github.io" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+language: "es"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: true
+use_logo: false
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
+
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
