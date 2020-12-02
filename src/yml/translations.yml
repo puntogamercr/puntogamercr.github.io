@@ -1,0 +1,41 @@
+translations:
+  text:
+    new_post: "Nueva publicación"
+    see_also: "Ver también"
+    search: "Búsqueda"
+    author: "Autor"
+    share: "Compartir"
+    comments: "Comentarios"
+  button:
+    read_now: "Leer más"
+    share_on_twitter: "Compartir en Twitter"
+    share_on_facebook: "Compartir en Facebook"
+  pagination:
+    page: "Page"
+    of: "of"
+    next_page: "Siguiente"
+    next_post: "Anterior"
+  recommendation:
+    text: "Te recomendamos leer"
+    back_btn: "Volver arriba"
+  error_404:
+    title: "Página no encontrada :("
+    message: "¡Whoa! Llegaste a una página no descubierta por la NASA."
+    image_alt: "404 - Página no encontrada"
+  contact:
+    title: "Conversemos"
+    subject: "Nuevo mensaje"
+    submit_btn: "Enviar"
+    placeholders:
+      name: "Tu nombre"
+      email: "Tu correo electrónico"
+      message: "Tu mensaje"
+    errors:
+      locale: "es"
+      empty_name: "Nombre es requerido"
+      empty_email: "Correo electrónico es requerido"
+      invalid_email: "El correo electrónico es incorrecto"
+      empty_message: "Mensaje es requerido"
+    after_send:
+      title: "¡Mensaje enviado!"
+      message: "Recibimos tu mensaje. Pronto recibirás una respuesta. ¡Saludos! :)"
